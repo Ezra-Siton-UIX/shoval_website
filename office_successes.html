@@ -1,0 +1,354 @@
+  <!doctype html>
+  <html lang="he" dir="rtl">
+    <head>
+      <!-- canonical -->
+      <link rel="canonical" href="https://shoval-pintok-law.netlify.app/"/> 
+
+      <meta name="google-site-verification" content="tD9xaZbxr2GEqLcHFpJA6U56fnIvX1-lcs3PyguPFsk" />
+
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-6F6WGS7FEN"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-6F6WGS7FEN');
+      </script>
+
+      <!-- UIkit CSS -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.10.1/dist/css/uikit-core-rtl.min.css" />
+
+      <!-- font -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">    
+      <link rel="icon" href="/shoval-logo-favicon.svg" type="image/svg+xml" sizes="any">
+      <title>הצלחות המשרד - שובל פינטוק - משרד עורכי דין</title>
+      <meta name="description" content="דיני עבודה, תובענות ייצוגיות, חדלות פירעון והוצאה לפועל, מכרזים, חוזים">
+      <meta name="author" content="שובל פינטוק עורכת דין">
+
+      <meta property="og:url"                content="" />
+      <meta property="og:type"               content="website" />
+      <meta property="og:title"              content="הצלחות המשרד - שובל פינטוק - משרד עורכי דין" />
+      <meta property="og:description"        content="דיני עבודה, תובענות ייצוגיות, חדלות פירעון והוצאה לפועל, מכרזים, חוזים" />
+      <meta property="og:image"              content="/shoval-pintok-og.png" />
+
+
+
+
+      <style>  
+              .uk-button-primary, .uk-button-primary:hover{
+          background-color: #023552;
+        }
+              .uk-navbar-nav>li>a {
+          color: black;   
+        }
+
+        .uk-navbar-right .uk-navbar-nav>li.uk-active> a {
+          color: #1e87f0;   
+
+        }
+
+              nav.uk-navbar-container.uk-navbar {
+          background: white;
+        }
+        
+        .uk-navbar-item{
+          padding: 0 25px;
+        }
+        body *{
+          font-family: 'Open Sans', sans-serif!important;   
+        }
+        .uk-card{
+          background-color: #fff;
+          color: #666;
+          box-shadow: 0 5px 15px rgb(0 0 0 / 5%)
+        }
+
+        #logo{
+          transition: 0.2s;
+        }
+        #logo img{
+          width: 220px; 
+        }
+        @media screen and (max-width: 980px) {
+          #logo{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: max-content;
+            box-sizing: border-box;
+          }
+        }
+      </style>
+    </head>
+    <body>
+      
+          <!-- Sticky navbar -->
+      <div  id="top" uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+        <nav class="uk-navbar-container" data-uk-navbar="dropbar: false;">
+          <!-- right -->
+          <div class="uk-navbar-right">
+            <!--off-canvas trigger hamburger btn. show only on mobile -->
+            <a class="uk-navbar-toggle uk-hidden@m" href="#" data-uk-toggle="target: #offcanvas-nav-primary">
+              <span uk-navbar-toggle-icon></span> <span class="uk-margin-small"></span>
+            </a>
+            <a class="uk-navbar-item uk-logo" href="/">
+              <div id="logo">
+                <img src="/shoval_pintok_logo.svg" alt="shoval pintok logo" />
+              </div>
+            </a>
+            <!-- show ul on desktop-tablet with uk-visible@m = Only affects device widths of 960px and larger-->
+            <ul class="uk-navbar-nav uk-visible@m" 
+                data-uk-scrollspy-nav="closest: li; scroll: true; offset: 50"
+                >
+              <li><a href="/" uk-scroll2="offset: 50;">ראשי</a></li>
+              <li><a href="/#about" uk-scroll2="offset: 50;">אודות</a></li>
+              <li><a href="/#services" uk-scroll2="offset: 50;">תחומי התמחות</a></li>
+              <li><a href="/office_successes" uk-scroll2="offset: 50;">הצלחות המשרד</a></li>
+              <li><a href="/#contact" uk-scroll2="offset: 50;">צור קשר</a></li>
+              <li class="uk-active"><a href="/accessibility_statement" uk-scroll2>הצהרת נגישות</a></li>
+            </ul>
+          </div>
+          <!-- social icons - hide on mobile -->
+          <div class="uk-navbar-left">
+            <div class="uk-navbar-item  uk-visible@m">
+              <a title="Email" href="mailto:shoval@pintok-law.co.il"  style="padding-right: 10px; padding-left:10px;"  class="uk-button uk-button">
+                shoval@pintok-law.co.il  
+                <span class="uk-icon-bu2tton" uk-icon="mail"></span>
+              </a>
+              <a title="Phone" href="tel:054-622-6088" style="padding-right: 5px; padding-left:15px;" class="uk-button uk-button">
+                054-622-6088     
+                <span class="uk-icon-bu2tton" uk-icon="receiver"></span>
+              </a>
+              <a href="#contact" uk-scroll="offset: 80" class="uk-button uk-button-primary">קבע פגישת ייעוץ</a>
+            </div>
+          </div>
+        </nav>
+
+
+
+        <!-- OFF-CANVAS NAVBAR (Trigger by hamburger btn)
+      modes: push / slide / reveal /none 
+      -->
+        <nav id="offcanvas-nav-primary" data-uk-offcanvas="overlay: true; mode: push; flip: false">
+          <!-- offcanvas setting  -->
+          <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+            <!-- navbar content her -->
+
+            <!-- B - offcanvas nav -->
+            <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+              <li class=""><a href="/#main" uk-scroll2>ראשי</a></li>
+              <li class=""><a href="/#about" uk-scroll2>אודות</a></li>
+              <li class=""><a href="/#services" uk-scroll2>תחומי התמחות</a></li>
+              <li class=""><a href="/#contact" uk-scroll2>צור קשר</a></li>
+              <li><a href="/office_successes" uk-scroll2="offset: 50;">הצלחות המשרד</a></li>
+              <li class=""><a href="/accessibility_statement" uk-scroll2>הצהרת נגישות</a></li>
+              <li class="">
+                <a href="#contact">
+                  <button  uk-scroll2="" class="uk-margin-top uk-button uk-button-danger uk-text-center">קבע פגישת ייעוץ</button>
+                </a>
+              </li>
+            </ul>
+
+
+            <!--C- contact us -->
+            <footer class="uk-margin-medium-top">
+              <hr>
+              <span uk-icon="icon: phone"></span>
+              <a class="uk-link-text" href="tel:054-622-6088">054-622-6088</a>
+            </footer>
+          </div>
+        </nav>
+
+      </div>
+
+
+      <!-- end mobile and desktop navbar -->
+  
+    
+  <header id="main">
+    <div class="uk-section-secondary">
+      <!-- change her the bg image + The overlay color/opacity/direction (under style="") -->
+      <!-- Use "data-uk-height-viewport" for full 100VH hero (entire viewport) -->
+      <div id="change-her-the-bg-image" class="uk-background-center-bottom uk-section uk-section uk-flex uk-flex-middle"   
+          style="background: linear-gradient(to left, rgba(30, 75, 115, 1), rgba(0, 0, 0, 0.5)), url('https://i.ibb.co/t8CdmKT/shoval-pintok.jpg'); background-repeat: no-repeat; background-size: cover; background-position: 50% 70%">
+        <div class="uk-width-1-1">
+          <!-- hero container -->
+          <div class="uk-container uk-container-large">
+            <!-- Heading: Add margin top for h1 - like this the text looks more center v beacuse the navbar is transpernt -->
+            <h1>
+              <div class="uk-margin-small uk-margin-medium-top uk-width-large@m uk-text-center uk-h6 uk-heading-line uk-align-center">
+                <!-- extra span for uk-heading-line -->
+                <span>שובל פינטוק - משרד עורכי דין</span>
+              </div>
+              <div class="uk-margin-small uk-heading-large uk-text-center" 
+                  >
+                הצלחות המשרד
+              </div>
+            </h1>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <br>
+  <nav aria-label="Breadcrumb" class="uk-container">
+    <ul class="uk-breadcrumb">
+      <li><a href="/">ראשי</a></li>
+      <li><a class="uk-disabled" href="/office_successes" aria-current="page">הצלחות המשרד</a></li>
+    </ul>
+  </nav>
+
+  <br>
+  <main class="uk-container">
+    <div class="uk-child-width-1-1@m uk-grid-small uk-grid-match" uk-grid>
+      <div>
+        <div class="uk-card uk-card-default uk-card-body">
+          <h3 class="uk-card-title">ת"צ 49576-05-20 פינטוק נ' אייס קפיטל קמעונאות (2016) בע"מ</h3>
+          <a target="_blank" class="uk-link" href="https://www.ace.co.il/hsdr-pwrh-t-c-49576-05-20">לקריאת פסק הדין המלא</a>
+
+        </div>
+      </div>
+      <div>
+        <div class="uk-card uk-card-default uk-card-body">
+          <h3 class="uk-card-title">ת"צ 51967-03-22 זידאן נ' הכרם - משקאות חריפים בע"מ
+          </h3>
+          <a target="_blank" class="uk-link" href="https://xn----8hcborozt8bdd.xn--9dbq2a/%D7%AA%D7%99%D7%A7/51967-03-22">לקריאת פסק הדין המלא</a>
+
+        </div>
+      </div>
+      <div>
+        <div class="uk-card uk-card-default uk-card-body">
+          <h3 class="uk-card-title">ת"צ 26934-06-22 מסיקה נ' טוונטי פור סבן אופנה בע"מ
+          </h3>
+
+
+          <a target="_blank" class="uk-link" href="https://xn----8hcborozt8bdd.xn--9dbq2a/%D7%AA%D7%99%D7%A7/26934-06-22">לקריאת פסק הדין המלא</a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <br/><br/>
+
+      <!-- ########## ABOUT ########## -->
+      <section id="about" class="uk-section uk-section-muted uk-section-large">
+        <div class="uk-container uk-container-small">
+
+          <h2 class="uk-heading-line uk-text-right"><span>אודות המשרד</span></h2>
+
+          <p>
+            <b>
+            עורכת דין שובל פינטוק
+            </b>
+            בוגרת הטכניון, הנדסאית מכונות מוסמכת; 
+            בעלת תואר ראשון במשפטים ( LLB) ובתקשורת (BA) בהצטיינות. 
+            חברת לשכת עורכי הדין  ומוסמכת מטעם משרד המשפטים לעריכת ייפוי כח מתמשך.</p>
+          <p>
+            המשרד מעניק ללקוחותיו שירותים משפטיים בתחומי ההתמחות: דיני עבודה, תובענות ייצוגיות, חדלות פירעון והוצאה לפועל, דיני חוזים ומכרזים, ייפוי כח מתמשך.
+          </p>
+          <p>
+            המשרד דוגל במתן שירות אפקטיבי, זמין תוך שימת דגש על יחס אישי ובשקיפות מלאה בפני הלקוחות. 
+          </p>
+        </div>
+      </section>
+
+
+    <!-- ########## ABOUT ########## -->
+
+
+      <!-- contact us -->
+      <footer class="uk-section uk-section-secondary  uk-section-large" id="contact">
+        <div class="uk-container uk-container-small">
+          <div class="uk-child-width-1-2@s uk-child-width-1-2@m" uk-grid>
+            <div><!-- col 1-->
+              <h2 class="uk-heading-line uk-text-right"><span>צור קשר</span></h2>
+
+              <p class="uk-text-large">
+                <b>
+                  <span uk-icon="icon: receiver"></span>
+
+                  התקשרו: 
+                </b>
+                <a href="tel:054-622-6088">054-622-6088</a>
+              </p>
+              <p>
+                <b>
+                  <span uk-icon="icon: mail"></span>
+
+                  אימייל: 
+                </b> 
+                <a style="text-decoration: underline;" href="mailto:shoval@pintok-law.co.il">shoval@pintok-law.co.il</a>
+              </p>
+              <p>
+                <b>
+                  <span uk-icon="icon: location"></span>
+
+                  כתובת: 
+                </b> 
+                רחוב ורדיה 8, חיפה
+              </p>
+              <p>
+                <b>
+                  <span uk-icon="icon: clock"></span>
+
+                  שעות פעילות: 
+                </b>
+                א'-ה' 9:00-18:00
+              </p>
+              </br>
+          </div><!-- end col 1 -->
+          <!-- col 2 -->
+          <div>
+            <form class="uk-form-stacked" name="contact" method="POST" data-netlify="true">
+              <h2 style="margin-top: 0px;" class="uk-heading-line uk-text-right"><span>טופס התקשרות</span></h2>
+              <p>
+                השאר פרטים ונחזור אליך בהקדם:
+              </p>
+            <fieldset class="uk-fieldset">
+              <div class="uk-margin">
+                <label for="name" class="uk-form-label">שם מלא: </label>   
+                <input id="name" required class="uk-input" type="text" name="name" placeholder="שם מלא"/>
+              </div>
+              <div class="uk-margin">
+                <label for="tel" class="uk-form-label">טלפון: </label>
+                <input id="tel" required class="uk-input" type="tel" name="phone" placeholder="טלפון"/>
+              </div>
+              <div class="uk-margin">
+                <label for="email" class="uk-form-label">דוא"ל: </label>
+                <input id="email" required class="uk-input" type="email" name="email" placeholder='דוא"ל'/>
+              </div>
+              <div class="uk-margin">
+                <label for="message" class="uk-form-label">הודעה: 
+                  <textarea id="message" class="uk-textarea" name="message"></textarea></label>
+              </div>
+              <div>
+                <button style="background: #1e87f0;" class="uk-width-1-1 uk-button uk-button-danger uk-button-large" type="submit">שליחה</button>
+              </div>
+            </fieldset>
+            </form>
+          </div><!-- end col 2 -->
+        </div><!-- end grid -->
+        </div><!-- end container -->
+      </footer>
+
+
+    <div class="uk-section uk-section-xsmall uk-section-secondary uk-text-center">
+      <small>
+        זכויות יוצרים © 2022 כל הזכויות שמורות
+      </small>
+    </div>
+
+    <!-- UIkit JS -->
+    <script defer src="https://cdn.jsdelivr.net/npm/uikit@3.10.1/dist/js/uikit.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/uikit@3.10.1/dist/js/uikit-icons.min.js"></script>
+
+
+    </body>
+  </html>
